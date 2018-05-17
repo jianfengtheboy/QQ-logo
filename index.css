@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	padding: 0;
+	font: 12px Tahoma, arial, sans-serif;
+}
+
+/* 主题 */
+header {
+	 font-family: 'Segoe UI Light','Segoe UI','Microsoft Jhenghei','微软雅黑',sans-serif;
+	 color: #666;
+	 font-size:50px;
+	 text-align: center;
+	 margin-top: 50px;
+}
+
+.author {
+	font-size: 0.6em;
+}
+
+.author a {
+	color: #5FB7E9;
+	text-decoration: none;
+}
+
+.author a:hover {
+	color: #4B9BC9;
+}
+
+/*QQ Logo 绘制*/
+#qq {
+	position: relative;
+	margin:0 auto;
+	width: 420px;
+	height: 400px;
+}
+
+/*QQ head*/
+.head {
+	position: absolute;
+	top: 18px;
+	left: 96px;
+	width: 234px;
+	height: 185px;
+	border: 1px solid #000;
+	border-top-left-radius: 117px 117px;
+	border-top-right-radius: 117px 117px;
+	border-bottom-left-radius: 117px 68px;
+	border-bottom-right-radius: 117px 68px;
+	background: #000;
+	z-index: 10;
+}
+
+/*QQ head -> eye*/
+.eye {
+	position: absolute;
+	width: 44px;
+	height: 66px;
+	border:1px solid #000;
+	border-radius:50% 50%;
+	background: #fff;
+}
+
+.left.eye {
+	left : 62px;
+	top: 50px;
+}
+
+.right.eye {
+	left: 132px;
+	top: 50px;
+}
